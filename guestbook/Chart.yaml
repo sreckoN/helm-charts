@@ -1,0 +1,10 @@
+apiVersion: v2
+name: guestbook
+description: A Helm chart for saving messages. 
+type: application
+version: 1.0.0
+appVersion: v5
+dependencies:
+  - name: redis
+    version: 17.11.x
+    repository: https://charts.bitnami.com/bitnami
